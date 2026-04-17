@@ -2,8 +2,13 @@ import {
   FaGithub,
   FaInstagram,
   FaLinkedinIn,
-  FaXTwitter,
 } from "react-icons/fa6";
+import {
+  SiLeetcode,
+  SiHackerrank,
+  SiGeeksforgeeks,
+  SiCodechef,
+} from "react-icons/si";
 import "./styles/SocialIcons.css";
 import { TbNotes } from "react-icons/tb";
 import { useEffect } from "react";
@@ -60,27 +65,42 @@ const SocialIcons = () => {
     <div className="icons-section">
       <div className="social-icons" data-cursor="icons" id="social">
         <span>
-          <a href="https://github.com/rajeshchityal" target="_blank">
+          <a href="https://github.com/dharg6718" target="_blank">
             <FaGithub />
           </a>
         </span>
         <span>
-          <a href="https://www.linkedin.com/in/rajeshchityal" target="_blank">
+          <a href="https://www.linkedin.com/in/giri-dhar-k-r-7308492b3/" target="_blank">
             <FaLinkedinIn />
           </a>
         </span>
         <span>
-          <a href="https://x.com/rajeshchityal" target="_blank">
-            <FaXTwitter />
-          </a>
-        </span>
-        <span>
-          <a href="https://www.instagram.com/rajeshchityal" target="_blank">
+          <a href="https://www.instagram.com/_.giri._06/" target="_blank">
             <FaInstagram />
           </a>
         </span>
+        <span>
+          <a href="https://leetcode.com/" target="_blank">
+            <SiLeetcode />
+          </a>
+        </span>
+        <span>
+          <a href="https://www.hackerrank.com/" target="_blank">
+            <SiHackerrank />
+          </a>
+        </span>
+        <span>
+          <a href="https://www.geeksforgeeks.org/" target="_blank">
+            <SiGeeksforgeeks />
+          </a>
+        </span>
+        <span>
+          <a href="https://www.codechef.com/users/kgisl_23it12" target="_blank">
+            <SiCodechef />
+          </a>
+        </span>
       </div>
-      <a className="resume-button" href="#">
+      <a className="resume-button" href="/GIRIDHAR%20RESYME.pdf" download target="_blank">
         <HoverLinks text="RESUME" />
         <span>
           <TbNotes />

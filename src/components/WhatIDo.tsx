@@ -127,10 +127,12 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
             <div className="what-content-in">
               <h3>BACKEND</h3>
-              <h4>Scalable Server Architecture</h4>
+              <h4>Backend, Cloud, DevOps & AI Engineering</h4>
               <p>
-                Designing robust APIs and microservices. From CMS platforms to
-                complex business logic, I build backends that scale.
+                Designing robust APIs and microservices with cloud-native
+                deployment. I build scalable backend systems and integrate AI,
+                machine learning, and data science workflows for smart
+                applications.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
@@ -142,6 +144,15 @@ const WhatIDo = () => {
                 <div className="what-tags">REST APIs</div>
                 <div className="what-tags">Microservices</div>
                 <div className="what-tags">Python</div>
+                <div className="what-tags">Cloud</div>
+                <div className="what-tags">AWS</div>
+                <div className="what-tags">DevOps</div>
+                <div className="what-tags">CI/CD</div>
+                <div className="what-tags">Docker</div>
+                <div className="what-tags">Kubernetes</div>
+                <div className="what-tags">AI</div>
+                <div className="what-tags">Machine Learning</div>
+                <div className="what-tags">Data Science</div>
               </div>
               <div className="what-arrow"></div>
             </div>
